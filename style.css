@@ -1,0 +1,137 @@
+body {
+    background-color: darkgrey;
+}
+
+.personia_contab_table_contab_personia {
+    margin-bottom:20px;
+}
+
+.personia_contab_form_contab_personia {
+    width:80%;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: DarkSeaGreen;
+}
+
+.personia_contab_form_contab_personia table {
+    width:100%;
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+
+.personia_contab_form_contab_personia table td {
+    border:1px solid white;
+    padding:8px;
+}
+
+.personia_contab_form_contab_personia label {
+    font-weight: bold;
+    display:block;
+}
+
+.personia_contab_form_contab_personia input, .personia_contab_form_contab_personia select {
+    min-width:100%;
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.personia_contab_form_contab_personia input[type="submit"] {
+    width: 50%;
+    background-color: #007cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.personia_contab_form_contab_personia input[type="submit"]:hover {
+    background-color:blue;
+}
+
+@media (min-width: 600px) {
+    .personia_contab_form_contab_personia label, .personia_contab_form_contab_personia input, .personia_contab_form_contab_personia select {
+        font-size: 1.1em;
+    }
+
+    .personia_contab_form_contab_personia input, .personia_contab_form_contab_personia select {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .personia_contab_form_contab_personia {
+        padding: 10px;
+    }
+
+    .personia_contab_form_contab_personia label {
+        font-size: 0.9em;
+    }
+}
+
+.personia_contab_bu_add_contab {
+    background-color:Green;
+    border-radius: 10px;
+    margin-left:10px;
+}
+
+.personia_contab_bu_add_piano {
+    background-color:PaleGreen;
+    border-radius: 8px;
+}
+
+.personia_contab_table_contab_personia {
+    border-collapse: collapse;
+    border:solid 2px blue;
+}
+
+.personia_contab_table_contab_personia>thead>tr {
+    background-color:LightGrey ;
+}
+
+.personia_contab_table_contab_personia>tbody>tr:nth-child(even) {
+    background-color:PaleGreen ;
+}
+
+.personia_contab_table_contab_personia>tbody>tr:nth-child(odd) {
+    background-color:LightSeaGreen ;
+}
+
+.personia_contab_table_contab_personia>thead>tr>th {
+    border:solid 1px black;
+    padding: 2px;
+}
+
+.personia_contab_table_contab_personia>tbody>tr>td {
+    border:solid 1px black;
+    padding: 2px;
+}
+
+.personia_contab_custom-file-upload {
+    display: inline-block;
+    position: relative;
+}
+
+.personia_contab_custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.personia_contab_custom-file-upload span, #personia_contab_copia_allegato {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.personia_contab_custom-file-upload span:hover, #personia_contab_copia_allegato:hover {
+    background-color: #0056b3;
+}
+
+.personia_contab_table_bilancio {
+    border-collapse: collapse;
+    margin:10px;
+}
